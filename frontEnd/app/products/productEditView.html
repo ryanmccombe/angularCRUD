@@ -1,0 +1,11 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">{{vm.title}}</div>
+    <div class="panel-body">
+        <div class="wizard">
+            <a ui-sref-active="active" ui-sref=".info">Basic Information</a>
+            <a ui-sref-active="active" ui-sref=".price">Price Details</a>
+            <a ui-sref-active="active" ui-sref=".tags">Search Tags</a>
+        </div>
+        <div ui-view></div>
+    </div>
+</div>
